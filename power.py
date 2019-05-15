@@ -9,12 +9,12 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 # Address of the WTI device
 URI = "https://"
-SITE_NAME = "192.168.0.158"
+SITE_NAME = "rest.wti.com"
 BASE_PATH = "/api/v2/config/power"
 
 # put in the username and password to your WTI PDU device here
-USERNAME = "super"
-PASSWORD = "super"
+USERNAME = "restpowerpublic"
+PASSWORD = "restfulpassword"
 
 print("\n\nWTI Plug Power request program")
 print("----------------------------\n")
