@@ -1,22 +1,21 @@
 Power RESTful call to Western Telematic Inc. (WTI) devices.
 
-This is a Simple Python script on how to talk to WTI PDU devices with a RESTful call to read power information.
+This is a Simple Python3 script on how to talk to WTI PDU devices with a RESTful call to read power information.
 
-This works on any modern WTI PDU device with power capabilities, the power RESTful call is universal on all WTI PDU type devices.
+This works on any modern WTI PDU/CPM device with power capabilities, the power RESTful call is universal on all WTI Power type devices.
 
 To Configure:
 
-Change your BASE_PATH to the address of your WTI PDU device
-Change your USERNAME and PASSWORD to the correct values for your WTI PDU device.
+To change the default values modify SITE_NAME to the address of your WTI device. Change the USERNAME and PASSWORD to the correct values for your WTI device.
 
 To Run:
-python power.py
+python3 power.py
 
-The current power information and timestamp should repeat on the screen, otherwise if the WTI device you are talking to does not have power capabilities, there will be a message and the program will exit.
+The current power information and timestamp should display on the screen, otherwise if the WTI device you are talking to does not have power capabilities, there will be a message and the program will exit.
 
 Documentation:
 
-The HTML or RAML file relating to the RESTful API calls can be found here:
+The HTML, RAML and OpenAPI file relating to the RESTful API calls can be found here:
 
 https://www.wti.com/t-wti-restful-api-download.aspx
 
